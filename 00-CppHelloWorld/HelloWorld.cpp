@@ -1,10 +1,9 @@
  #include<iostream>
- #include<fstream>
+
  using namespace std;
  int main(){
-     ofstream archivNombre;
-     archivNombre.open("HelloWorld_Output.txt");
-     archivNombre<<"Hello World";
-     archivNombre.close();
+  ##La salida es capturada por consola a un archivo utilizando la line de consola "HelloWorld.exe > archivo.txt"
+     cout<<"Hello World";
+ 
      return 0;
  }
