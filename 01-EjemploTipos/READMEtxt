@@ -1,0 +1,21 @@
+
+-)Algoritmo y Estructura de Datos
+-)Curso: K1051
+-)Cursada 2021
+-)Usuario: Mmorla
+-)Legajo: 160436-3
+-)Apellido: Morla
+-)Nombre: Mauro
+ 
+-)Objetivos:
+• Demostrar la aplicación de tipos de datos mediante un programa ejemplo con
+pruebas.
+• Utilice assert para probar.
+• No extraer valores de cin, usar valores literales (constantes).
+• No enviar valores de cout.
+• Este es un trabajo no estructurado, que consiste en escribir un programa que
+ejemplifique el uso de los tipos de datos básicos de C++ vistos en clase: bool,
+char, unsigned, int, double, y string.
+ 
+ IDE usado: Visual Studio Code con la extension C/C++ de Microsoft v1.2.2
+
