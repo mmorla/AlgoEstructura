@@ -11,7 +11,7 @@ int main()
     int b=2;
     int c=4;
     assert((a+b)==c);
-    assert((a+b)-(c*2));
+    assert( ((a+b)-(c*2))<=0 );
     
     
     /*Testing bools*/
