@@ -7,46 +7,24 @@ using namespace std;
 int main()
 {
     /*Testing ints*/
-    int a=2;
-    int b=2;
-    int c=4;
-    assert((a+b)==c);
-    assert( ((a+b)-(c*2))<=0 );
+    assert((2+2)==4);
+    assert( ((2+2)-(4*2))<=0 );
     
     
     /*Testing bools*/
-    bool d=true;
-    bool e=true;
-    bool f=false;
-
-    assert(((d and e)==true) or f==true);
+    assert(((true and true)==true) or false);
     
     /*Testing char*/
-    char g='x';
-    
-    assert(g!='y');
+    assert('x'!='y');
     
     /*Testing unsigned*/
-    unsigned h=3;
-    assert(h>=3);
+    assert(3>=3);
 
     /*Testing strings*/
-
-    string i="caballo";
+    assert("caballo"=="caballo");
     
-    assert(i.length()>=5);
+    /*Testing Double*/  
+    assert((3,33*3)==9.99);
     
-    /*Testing Double*/
-    
-    double j=3.33;
-    
-    assert((j*3)==9.99);
-    
-
-
-
-
     return 0;
 }
-
-
