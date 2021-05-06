@@ -11,7 +11,9 @@ int main()
     int b=2;
     int c=4;
     assert((a+b)==c);
-
+    assert((a+b)-(c*2));
+    
+    
     /*Testing bools*/
     bool d=true;
     bool e=true;
@@ -33,7 +35,12 @@ int main()
     string i="caballo";
     
     assert(i.length()>=5);
-
+    
+    /*Testing Double*/
+    
+    double j=3.33
+    
+    assert((j*3)==9.99);
     
 
 
