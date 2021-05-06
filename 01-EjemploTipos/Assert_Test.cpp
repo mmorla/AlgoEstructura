@@ -38,7 +38,7 @@ int main()
     
     /*Testing Double*/
     
-    double j=3.33
+    double j=3.33;
     
     assert((j*3)==9.99);
     
